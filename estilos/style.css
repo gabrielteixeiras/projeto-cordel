@@ -99,3 +99,21 @@ footer {
     color: white;
     padding: 10px;
 }
+
+
+@media screen and (min-width: 771px) {
+
+    header > h1 {
+        padding-top: 10px;
+        font-size: 5rem;
+    }
+    
+    section {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        line-height: 1.5em;
+        font-size: 2rem;
+
+        text-align: center;
+    }
+}
